@@ -36,13 +36,13 @@ namespace SplitText
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.Lines = new System.Windows.Forms.Label();
             this.num = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSP = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.Lines = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -121,18 +121,6 @@ namespace SplitText
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // Lines
-            // 
-            this.Lines.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Lines.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Lines.ForeColor = System.Drawing.Color.White;
-            this.Lines.Location = new System.Drawing.Point(0, 0);
-            this.Lines.Name = "Lines";
-            this.Lines.Size = new System.Drawing.Size(67, 27);
-            this.Lines.TabIndex = 9;
-            this.Lines.Text = "Lines";
-            this.Lines.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // num
             // 
             this.num.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -210,6 +198,18 @@ namespace SplitText
             this.label1.Text = "Load";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Lines
+            // 
+            this.Lines.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Lines.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Lines.ForeColor = System.Drawing.Color.White;
+            this.Lines.Location = new System.Drawing.Point(0, 0);
+            this.Lines.Name = "Lines";
+            this.Lines.Size = new System.Drawing.Size(67, 27);
+            this.Lines.TabIndex = 9;
+            this.Lines.Text = "Lines";
+            this.Lines.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // notifyIcon1
             // 

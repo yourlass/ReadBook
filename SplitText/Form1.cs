@@ -87,9 +87,13 @@ namespace SplitText
         {
             using (FontDialog fd = new FontDialog())
             {
+                fd.ShowColor = true;
+                fd.Font = richTextBox1.Font;
+                fd.Color= richTextBox1.ForeColor;
                 if (DialogResult.OK == fd.ShowDialog())
                 {
                     richTextBox1.Font = fd.Font;
+                    richTextBox1.ForeColor = fd.Color;
                 }
             }
         }
